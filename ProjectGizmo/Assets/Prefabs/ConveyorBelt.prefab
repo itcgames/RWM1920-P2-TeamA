@@ -181,7 +181,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24b7cb96cfaf4f1498eb43a3d75963ff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3d49b2767e5e8b641bbd46f9606dc542, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   degreesPerSec: 90
-  Right: 0
+  Right: 1
 --- !u!1 &5922254626085319234
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,8 +319,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   belt: {fileID: 5922254626085319234}
-  endpoint: {fileID: 2040204507138855334}
-  speed: 5
+  endpoint: {fileID: 8861322734529796525}
+  speed: 10
 --- !u!70 &6220555045022413136
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -406,7 +406,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24b7cb96cfaf4f1498eb43a3d75963ff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3d49b2767e5e8b641bbd46f9606dc542, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -430,7 +430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   degreesPerSec: 90
-  Right: 0
+  Right: 1
 --- !u!1 &8662016607959017848
 GameObject:
   m_ObjectHideFlags: 0
