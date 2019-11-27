@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Buttons.cs" />
     <Compile Include="Assets\Scripts\CreateBubble.cs" />
     <Compile Include="Assets\Scripts\PlayerGoalDetection.cs" />
+    <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/edenb/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

@@ -7,6 +7,7 @@ TagManager:
   - Bubble
   - FanAOE
   - TestCube
+  - Ground
   layers:
   - Default
   - TransparentFX
