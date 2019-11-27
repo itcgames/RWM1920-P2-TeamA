@@ -35,6 +35,7 @@ public class PlayerScript : MonoBehaviour
 
         if (jump)
         { 
+            //rb.velocity += movementDirection ? new Vector2(speed, jumpspeed) : new Vector2(-speed, jumpspeed);
             rb.position += movementDirection ? new Vector2(speed, jumpspeed) : new Vector2(-speed, jumpspeed);
             jumpspeed *= 0.9f;
             if (jumpspeed <= 0)
@@ -44,6 +45,7 @@ public class PlayerScript : MonoBehaviour
         }
         else
         {
+            //rb.velocity += movementDirection ? new Vector2(speed, 0) : new Vector2(-speed, 0);
             rb.position += movementDirection ? new Vector2(speed, 0) : new Vector2(-speed, 0);
         }
     }
