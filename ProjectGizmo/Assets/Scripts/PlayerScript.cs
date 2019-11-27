@@ -20,6 +20,7 @@ public class PlayerScript : MonoBehaviour
         
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -28,7 +29,6 @@ public class PlayerScript : MonoBehaviour
             if (jump == false)
             {
                 jump = true;
-                StartCoroutine(jumpWait());
                 jumpspeed = jumpHeight;
             }
         }
@@ -53,7 +53,7 @@ public class PlayerScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if(col.gameObject.tag != "Ground")
+        if (col.gameObject.tag == "BorderSide")
         {
             var direction = transform.InverseTransformPoint(col.transform.position);
 
@@ -61,13 +61,14 @@ public class PlayerScript : MonoBehaviour
             {
                 movementDirection = !movementDirection;
             }
+
+            print("Side Hit");
         }
-    }
 
-
-    IEnumerator jumpWait()
-    {
-        yield return new WaitForSeconds(time);
-        jump = false;
+        if (col.gameObject.tag == "BorderTop")
+        {
+            jump = false;
+            print("top Hit");
+        }
     }
 }

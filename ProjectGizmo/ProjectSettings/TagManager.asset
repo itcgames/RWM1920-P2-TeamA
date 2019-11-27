@@ -8,6 +8,8 @@ TagManager:
   - FanAOE
   - TestCube
   - Ground
+  - BorderSide
+  - BorderTop
   layers:
   - Default
   - TransparentFX
