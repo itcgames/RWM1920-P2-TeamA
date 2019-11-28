@@ -53,24 +53,27 @@ public class BubbleMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (this.transform.childCount <= 0)
+        if (other.isTrigger == false)
         {
-            if (other.tag != playerTag && other.tag != "Bubble")
+            if (this.transform.childCount <= 0)
             {
-                bubPopSource.Play();
-                Destroy(gameObject);
+                if (other.tag != playerTag && other.tag != "Bubble")
+                {
+                    bubPopSource.Play();
+                    Destroy(gameObject);
+                }
+                else if (other.tag != "Bubble")
+                {
+                    player = other.gameObject;
+                    player.transform.SetParent(this.transform);
+                    player.GetComponent<Rigidbody2D>().isKinematic = true;
+                    player.transform.localPosition = this.transform.position;
+                }
             }
-            else if (other.tag != "Bubble")
+            else
             {
-                player = other.gameObject;
-                player.transform.SetParent(this.transform);
-                player.GetComponent<Rigidbody2D>().isKinematic = true;
-                player.transform.localPosition = this.transform.position;
+                return;
             }
-        }
-        else
-        {
-            return;
         }
     }
 
@@ -78,7 +81,7 @@ public class BubbleMovement : MonoBehaviour
     private void OnDestroy()
     {
         player.transform.SetParent(null);
-        player.GetComponent<Rigidbody2D>().isKinematic = false;
+        //player.GetComponent<Rigidbody2D>().isKinematic = false;
         player.GetComponent<Collider2D>().enabled = true;
         Instantiate(particles, transform.position, transform.rotation);
     }

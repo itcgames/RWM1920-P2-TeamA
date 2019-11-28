@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 883681619095416931}
   m_Layer: 0
-  m_Name: Level
+  m_Name: Level Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1006,6 +1006,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 883681619095416931}
     m_Modifications:
+    - target: {fileID: 2888048894908787489, guid: 5673f04375981fa49831d1ef97ed41a1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888048894908787489, guid: 5673f04375981fa49831d1ef97ed41a1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.19
+      objectReference: {fileID: 0}
     - target: {fileID: 2888048895884267986, guid: 5673f04375981fa49831d1ef97ed41a1,
         type: 3}
       propertyPath: m_Name
@@ -1075,16 +1085,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.34
-      objectReference: {fileID: 0}
-    - target: {fileID: 2888048894908787489, guid: 5673f04375981fa49831d1ef97ed41a1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 27.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 2888048894908787489, guid: 5673f04375981fa49831d1ef97ed41a1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 19.19
       objectReference: {fileID: 0}
     - target: {fileID: 2888048896299724186, guid: 5673f04375981fa49831d1ef97ed41a1,
         type: 3}
