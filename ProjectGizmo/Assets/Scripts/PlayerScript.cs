@@ -12,12 +12,13 @@ public class PlayerScript : MonoBehaviour
     private bool jump = false;
     private float jumpspeed = 0f;
 
-    private float time = 1.0f;
+    private SpriteRenderer mySpriteRenderer;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
 
@@ -60,6 +61,7 @@ public class PlayerScript : MonoBehaviour
             if (direction.x > 0f || direction.x < 0f)
             {
                 movementDirection = !movementDirection;
+                mySpriteRenderer.flipX = movementDirection;
             }
 
             print("Side Hit");
