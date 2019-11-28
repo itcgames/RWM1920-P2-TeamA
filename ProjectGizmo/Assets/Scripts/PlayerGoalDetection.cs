@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerGoalDetection : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class PlayerGoalDetection : MonoBehaviour
         if (col2D.gameObject.tag == "Player")
         {
             Debug.Log("win");
+            SceneManager.LoadScene(2);
         }
     }
 
