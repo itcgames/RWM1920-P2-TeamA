@@ -13,6 +13,7 @@ public class BubbleMovement : MonoBehaviour
 
     public string playerTag;
     GameObject player;
+    public GameObject playerNew;
 
     public Vector3 bubbleSize;
     public Vector3 blowSpeed;
@@ -81,8 +82,9 @@ public class BubbleMovement : MonoBehaviour
     private void OnDestroy()
     {
         player.transform.SetParent(null);
-        //player.GetComponent<Rigidbody2D>().isKinematic = false;
         player.GetComponent<Collider2D>().enabled = true;
+        Destroy(player);
+        Instantiate(playerNew);
         Instantiate(particles, transform.position, transform.rotation);
     }
 
