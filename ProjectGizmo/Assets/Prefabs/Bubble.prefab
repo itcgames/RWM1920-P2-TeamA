@@ -122,6 +122,8 @@ MonoBehaviour:
   speed: 100
   maxTime: 10
   playerTag: Player
+  playerNew: {fileID: 8302930988454346444, guid: 6ca3f9ec007fd5040b56b2ede497a21c,
+    type: 3}
   bubbleSize: {x: 0.1, y: 0.1, z: 0.1}
   blowSpeed: {x: 0.005, y: 0.005, z: 0.005}
   bubPopClip: {fileID: 8300000, guid: ecedc34dff6e6ea4fa6ed0bfe8e869f0, type: 3}
