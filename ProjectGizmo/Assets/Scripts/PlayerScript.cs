@@ -12,13 +12,15 @@ public class PlayerScript : MonoBehaviour
     private bool jump = false;
     private float jumpspeed = 0f;
 
-    private float time = 1.0f;
+    private SpriteRenderer mySpriteRenderer;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
     }
+
 
     // Update is called once per frame
     void Update()
@@ -28,7 +30,6 @@ public class PlayerScript : MonoBehaviour
             if (jump == false)
             {
                 jump = true;
-                StartCoroutine(jumpWait());
                 jumpspeed = jumpHeight;
             }
         }
@@ -53,21 +54,23 @@ public class PlayerScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if(col.gameObject.tag != "Ground")
+        if (col.gameObject.tag == "BorderSide")
         {
             var direction = transform.InverseTransformPoint(col.transform.position);
 
             if (direction.x > 0f || direction.x < 0f)
             {
                 movementDirection = !movementDirection;
+                mySpriteRenderer.flipX = movementDirection;
             }
+
+            print("Side Hit");
         }
-    }
 
-
-    IEnumerator jumpWait()
-    {
-        yield return new WaitForSeconds(time);
-        jump = false;
+        if (col.gameObject.tag == "BorderTop")
+        {
+            jump = false;
+            print("top Hit");
+        }
     }
 }
