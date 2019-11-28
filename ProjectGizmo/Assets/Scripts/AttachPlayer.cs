@@ -8,7 +8,7 @@ public class AttachPlayer : MonoBehaviour
     public Rigidbody2D rbPlayer;
     public Rigidbody2D rbPayload;
 
-    public float releaseTime = 3.0f;
+    public float releaseTime = 1.5f;
 
     private bool firePlayer = false;
 

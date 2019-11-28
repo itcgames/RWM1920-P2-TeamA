@@ -51,13 +51,8 @@ public class PlayerScript : MonoBehaviour
             }
             else
             {
-
                 rb.position += movementDirection ? new Vector2(speed, 0) : new Vector2(-speed, 0);
             }
-        }
-        else
-        {
-            
         }
     }
 

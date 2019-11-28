@@ -60,9 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AttachPlayer.cs" />
+    <Compile Include="Assets\Scripts\AttachPlayer.cs" />
     <Compile Include="Assets\Scripts\BubbleMovement.cs" />
     <Compile Include="Assets\Scripts\CreateBubble.cs" />
+    <Compile Include="Assets\Scripts\Payload.cs" />
     <Compile Include="Assets\Scripts\PlayerGoalDetection.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
