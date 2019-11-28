@@ -10,6 +10,7 @@ TagManager:
   - Ground
   - BorderSide
   - BorderTop
+  - Catapult
   layers:
   - Default
   - TransparentFX
