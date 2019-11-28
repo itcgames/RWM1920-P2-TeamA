@@ -374,5 +374,40 @@ PrefabInstance:
       propertyPath: m_Colors.m_PressedColor.b
       value: 0.3803922
       objectReference: {fileID: 0}
+    - target: {fileID: 3340023928795062103, guid: 995f2078e86b9744b9d1ea74c2d30fe9,
+        type: 3}
+      propertyPath: m_ScaleFactor
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621235073339439216, guid: 995f2078e86b9744b9d1ea74c2d30fe9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -94.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621235073339439216, guid: 995f2078e86b9744b9d1ea74c2d30fe9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -125.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621235073339439216, guid: 995f2078e86b9744b9d1ea74c2d30fe9,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 139.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049529114343381351, guid: 995f2078e86b9744b9d1ea74c2d30fe9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 131.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049529114343381351, guid: 995f2078e86b9744b9d1ea74c2d30fe9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -94.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049529114343381351, guid: 995f2078e86b9744b9d1ea74c2d30fe9,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 139.44
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 995f2078e86b9744b9d1ea74c2d30fe9, type: 3}
