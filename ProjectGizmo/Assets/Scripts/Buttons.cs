@@ -28,7 +28,7 @@ public class Buttons : MonoBehaviour
             Debug.Log(counter);
         }
         
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(index + 1);
     }
 
     public void GameOver()
@@ -54,7 +54,7 @@ public class Buttons : MonoBehaviour
             counter += Time.deltaTime;
             Debug.Log(counter);
         }
-
+        index = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene("Win");
     }
 
