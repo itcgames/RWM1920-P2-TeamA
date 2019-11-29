@@ -68,8 +68,8 @@
     <Compile Include="Assets\Scripts\Buttons.cs" />
     <Compile Include="Assets\Scripts\ClickDrag.cs" />
     <Compile Include="Assets\Scripts\CreateBubble.cs" />
+    <Compile Include="Assets\Scripts\Gameplay.cs" />
     <Compile Include="Assets\Scripts\Payload.cs" />
-    <Compile Include="Assets\Scripts\PlayerGoalDetection.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\TimerScript.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

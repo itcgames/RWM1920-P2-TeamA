@@ -12,8 +12,9 @@ public class TimerScript : MonoBehaviour
     public Text timerSeconds;
     private bool isRunning = false;
 
-    private Scene scene;
+    Scene currentScene = SceneManager.GetActiveScene();
 
+    public GameObject gizmo;
 
     private void Start()
     {
@@ -22,15 +23,30 @@ public class TimerScript : MonoBehaviour
     public void timerStart()
     {
         isRunning = true;
+        gizmo.GetComponent<Rigidbody2D>().isKinematic = false;
+        
     }
-    public void timerPause()
-    {
-        isRunning = false;
-    }
+    
     public void timerRestart()
     {
         isRunning = false;
-        currentTime = StartTime;
+
+        if(SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            SceneManager.LoadScene(1);
+        }
+        if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            SceneManager.LoadScene(2);
+        }
+        if (SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            SceneManager.LoadScene(3);
+        }
+        if (SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            SceneManager.LoadScene(4);
+        }
     }
 
     private void Update()
@@ -52,8 +68,6 @@ public class TimerScript : MonoBehaviour
     
     private void timerEnded()
     {
-        var parameters = new LoadSceneParameters(LoadSceneMode.Additive);
-        scene = SceneManager.LoadScene("GameOver", parameters);
-        print ("hi");
+      SceneManager.LoadScene(5); 
     }
 }

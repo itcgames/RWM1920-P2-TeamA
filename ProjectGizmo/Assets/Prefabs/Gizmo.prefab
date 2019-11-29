@@ -142,7 +142,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 8302930988454346443}
-  rbPayload: {fileID: 0}
+  rbPayload: {fileID: 2312892774230195568, guid: 648734e2da7e04a46a98cb6e57f932ec,
+    type: 3}
   movementDirection: 1
   speed: 0.15
   jumpHeight: 0.9

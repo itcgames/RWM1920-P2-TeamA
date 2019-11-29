@@ -16,6 +16,8 @@ TagManager:
   - BeltSprite
   - FanSprite
   - BubbleSprite
+  - BorderBottom
+  - GizmoSprite
   layers:
   - Default
   - TransparentFX

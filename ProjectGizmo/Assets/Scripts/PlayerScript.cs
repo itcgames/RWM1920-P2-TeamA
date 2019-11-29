@@ -10,6 +10,7 @@ public class PlayerScript : MonoBehaviour
     public float speed = 0;
     public float jumpHeight = 0;
 
+    private bool bottomHit = false;
 
     public bool disable = false;
 
@@ -33,10 +34,13 @@ public class PlayerScript : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space))
             {
-                if (jump == false)
+                if (!bottomHit)
                 {
-                    jump = true;
-                    jumpspeed = jumpHeight;
+                    if (jump == false)
+                    {
+                        jump = true;
+                        jumpspeed = jumpHeight;
+                    }
                 }
             }
 
@@ -64,27 +68,32 @@ public class PlayerScript : MonoBehaviour
             if (col.gameObject.tag == "Catapult")
             {
                 disable = true;
-                print("Collide");
             }
             else
             {
-                if (col.gameObject.tag == "BorderSide")
+                if (col.gameObject.tag == "BorderBottom")
                 {
-                    var direction = transform.InverseTransformPoint(col.transform.position);
-
-                    if (direction.x > 0f || direction.x < 0f)
-                    {
-                        movementDirection = !movementDirection;
-                        mySpriteRenderer.flipX = movementDirection;
-                    }
-
-                    print("Side Hit");
+                    Debug.Log("hi");
+                    bottomHit = true;
                 }
 
+                if (!bottomHit)
+                {
+                    if (col.gameObject.tag == "BorderSide")
+                    {
+                        var direction = transform.InverseTransformPoint(col.transform.position);
+
+                        if (direction.x > 0f || direction.x < 0f)
+                        {
+                            movementDirection = !movementDirection;
+                            mySpriteRenderer.flipX = movementDirection;
+                        }
+                    }
+                }
                 if (col.gameObject.tag == "BorderTop")
                 {
                     jump = false;
-                    print("top Hit");
+                    bottomHit = false;
                 }
             }
         }
@@ -94,7 +103,6 @@ public class PlayerScript : MonoBehaviour
             {
                 if (col.gameObject.tag == "BorderSide" || col.gameObject.tag == "BorderTop")
                 {
-                    print("Not disabled");
                     disable = false;
                     rb.isKinematic = false;
                     StartCoroutine(rbPayload.GetComponent<Payload>().ReloadWait());
