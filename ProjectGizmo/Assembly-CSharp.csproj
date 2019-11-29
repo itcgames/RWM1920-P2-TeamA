@@ -60,11 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AttachPlayer.cs" />
     <Compile Include="Assets\Scripts\BubbleMovement.cs" />
+    <Compile Include="Assets\Scripts\Buttons.cs" />
     <Compile Include="Assets\Scripts\ClickDrag.cs" />
     <Compile Include="Assets\Scripts\CreateBubble.cs" />
+    <Compile Include="Assets\Scripts\Payload.cs" />
     <Compile Include="Assets\Scripts\PlayerGoalDetection.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\TimerScript.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Jack/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
