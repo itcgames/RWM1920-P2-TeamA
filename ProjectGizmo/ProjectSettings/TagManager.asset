@@ -10,6 +10,12 @@ TagManager:
   - TestCube
   - BorderTop
   - BorderSide
+  - obj
+  - CatapultSprite
+  - SpringSprite
+  - BeltSprite
+  - FanSprite
+  - BubbleSprite
   layers:
   - Default
   - TransparentFX

@@ -54,6 +54,7 @@ public class BubbleMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
         if (other.isTrigger == false)
         {
             if (this.transform.childCount <= 0)
@@ -64,11 +65,12 @@ public class BubbleMovement : MonoBehaviour
                     Destroy(gameObject);
                 }
                 else if (other.tag != "Bubble")
-                {
+                { 
                     player = other.gameObject;
 
                     player.transform.SetParent(this.transform);
                     player.GetComponent<Rigidbody2D>().isKinematic = true;
+
                     player.transform.localPosition = this.transform.position;
                 }
             }
@@ -76,7 +78,16 @@ public class BubbleMovement : MonoBehaviour
             {
                 return;
             }
-        }
+
+           
+
+        } 
+        if(other.tag == "obj" )
+            {
+                bubPopSource.Play();
+                Destroy(gameObject);
+            }
+        
     }
 
     //when the bubble is destroyed instatiate particle effect
