@@ -66,6 +66,7 @@ public class BubbleMovement : MonoBehaviour
                 else if (other.tag != "Bubble")
                 {
                     player = other.gameObject;
+
                     player.transform.SetParent(this.transform);
                     player.GetComponent<Rigidbody2D>().isKinematic = true;
                     player.transform.localPosition = this.transform.position;
@@ -84,7 +85,7 @@ public class BubbleMovement : MonoBehaviour
         player.transform.SetParent(null);
         player.GetComponent<Collider2D>().enabled = true;
         Destroy(player);
-        Instantiate(playerNew);
+        Instantiate(playerNew, transform.position, transform.rotation);
         Instantiate(particles, transform.position, transform.rotation);
     }
 
