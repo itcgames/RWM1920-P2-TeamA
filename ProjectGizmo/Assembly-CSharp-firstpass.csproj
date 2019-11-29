@@ -52,6 +52,9 @@
     <UnityVersion>2018.4.9f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -75,24 +78,24 @@
     <Compile Include="Assets\Plugins\submodules\RWM1920-C00220386\Conveyor Belt\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="Assets\Plugins\submodules\RWM1920-C00220386\Conveyor Belt\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <None Include="Assets\Plugins\submodules\RWM1920-C00217820\Fan\ProjectSettings\ProjectVersion.txt" />
-    <None Include="Assets\Plugins\submodules\RWM1920-C00215747\Component\ProjectSettings\ProjectVersion.txt" />
-    <None Include="Assets\Plugins\submodules\RWM1920-C00220386\Conveyor Belt\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\Plugins\submodules\RWM1920-C00220386\Conveyor Belt\obj\Debug\JackScripts.csproj.FileListAbsolute.txt" />
     <None Include="Assets\Plugins\submodules\RWM1920-C00213826\Catapult\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\Plugins\submodules\RWM1920-C00215747\Component\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\Plugins\submodules\RWM1920-C00220386\Conveyor Belt\ProjectSettings\ProjectVersion.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Jack/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Jack/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Jack/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Jack/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Jack/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -296,16 +299,16 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="JackScripts">
-      <HintPath>C:/Users/Jack/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Assets/Plugins/submodules/RWM1920-C00220386/Conveyor Belt/obj/Debug/JackScripts.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Assets/Plugins/submodules/RWM1920-C00220386/Conveyor Belt/obj/Debug/JackScripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Jack/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Jack/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Jack/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
