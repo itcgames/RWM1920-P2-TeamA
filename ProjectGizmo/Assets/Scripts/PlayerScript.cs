@@ -32,7 +32,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (!disable)
         {
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetMouseButtonDown(0))
             {
                 if (!bottomHit)
                 {
