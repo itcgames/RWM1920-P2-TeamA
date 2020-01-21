@@ -330,9 +330,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5254ee4a59416544c87c8397acfcef0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  strength: 20
+  strength: 200
   direction: {x: 1, y: 0, z: 0}
   size: {x: 1, y: 1, z: 0}
+  m_MyAudioSource: {fileID: 0}
 --- !u!1 &603260076377847033
 GameObject:
   m_ObjectHideFlags: 0

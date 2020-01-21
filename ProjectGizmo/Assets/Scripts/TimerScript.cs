@@ -12,12 +12,13 @@ public class TimerScript : MonoBehaviour
     public Text timerSeconds;
     private bool isRunning = false;
 
-    Scene currentScene = SceneManager.GetActiveScene();
+  
 
     public GameObject gizmo;
 
     private void Start()
-    {
+    {  
+        Scene currentScene = SceneManager.GetActiveScene();
         currentTime = StartTime;
     }
     public void timerStart()
