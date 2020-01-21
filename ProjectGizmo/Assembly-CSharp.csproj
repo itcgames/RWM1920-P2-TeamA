@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Gameplay.cs" />
     <Compile Include="Assets\Scripts\Payload.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\TextScript.cs" />
     <Compile Include="Assets\Scripts\TimerScript.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/edenb/Documents/Year 4/Real World Sim/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
