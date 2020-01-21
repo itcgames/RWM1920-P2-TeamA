@@ -35,13 +35,13 @@ public class ClickDrag : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         dragging = false;
         transform.position = ImageStartPosition;
        
-        Vector3 clickedPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        Instantiate(Item, new Vector2( (clickedPosition.x), (clickedPosition.y)), Quaternion.identity);
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
         dragging = true;
+        Vector3 clickedPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Instantiate(Item, new Vector2((clickedPosition.x), (clickedPosition.y)), Quaternion.identity);
+
     }
 }
