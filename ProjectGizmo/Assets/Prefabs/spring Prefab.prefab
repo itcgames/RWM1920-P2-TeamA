@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 50016910281622108}
   - component: {fileID: 3852683028786231661}
   - component: {fileID: 6705444784770848737}
+  - component: {fileID: 114487118553149468}
   m_Layer: 0
   m_Name: spring Prefab
   m_TagString: SpringSprite
@@ -287,3 +288,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &114487118553149468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5492505843636204979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67811797d0c41f4d9908144efef3c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
