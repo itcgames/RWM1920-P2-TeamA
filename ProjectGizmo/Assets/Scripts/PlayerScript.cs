@@ -67,7 +67,7 @@ public class PlayerScript : MonoBehaviour
         {
             if (col.gameObject.tag == "Catapult")
             {
-                disable = true;
+               // disable = true;
             }
             else
             {
