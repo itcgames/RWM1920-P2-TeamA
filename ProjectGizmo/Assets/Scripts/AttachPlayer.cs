@@ -8,14 +8,13 @@ public class AttachPlayer : MonoBehaviour
     public Rigidbody2D rbPlayer;
     public Rigidbody2D rbPayload;
 
-    public float releaseTime = 1.5f;
+    public float releaseTime = 1.0f;
 
     private bool firePlayer = false;
 
     // Start is called before the first frame update
     void Start()
     {
-     
     }
 
     // Update is called once per frame

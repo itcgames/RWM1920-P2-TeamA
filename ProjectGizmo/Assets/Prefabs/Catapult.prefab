@@ -152,7 +152,7 @@ MonoBehaviour:
   player: {fileID: 8302930988454346440, guid: 6ca3f9ec007fd5040b56b2ede497a21c, type: 3}
   rbPlayer: {fileID: 8302930988454346443, guid: 6ca3f9ec007fd5040b56b2ede497a21c,
     type: 3}
-  rbPayload: {fileID: 0}
+  rbPayload: {fileID: 1313227516191793395}
   releaseTime: 1.5
 --- !u!1 &6608218003444780661
 GameObject:

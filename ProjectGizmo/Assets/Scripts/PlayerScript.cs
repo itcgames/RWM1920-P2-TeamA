@@ -24,6 +24,7 @@ public class PlayerScript : MonoBehaviour
     void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
+
     }
 
 
@@ -67,7 +68,8 @@ public class PlayerScript : MonoBehaviour
         {
             if (col.gameObject.tag == "Catapult")
             {
-                disable = true;
+                movementDirection = !movementDirection;
+                //disable = true;
             }
             else
             {

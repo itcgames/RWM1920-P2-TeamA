@@ -41,8 +41,8 @@ public class Gameplay : MonoBehaviour
 
             if (g.tag == "CatapultSprite")
             {
-                Destroy(g);
-                Instantiate(catapult, g.transform.position, g.transform.rotation);
+               // Destroy(g);
+               // Instantiate(catapult, g.transform.position, g.transform.rotation);
             }
             if (g.tag == "BeltSprite")
             {
