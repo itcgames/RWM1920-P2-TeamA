@@ -83,7 +83,6 @@ public class Buttons : MonoBehaviour
         while (counter < waitTime)
         {
             counter += Time.deltaTime;
-            Debug.Log(counter);
         }
         Debug.Log(index);
         PlayerPrefs.SetInt("Score", SceneManager.GetActiveScene().buildIndex);

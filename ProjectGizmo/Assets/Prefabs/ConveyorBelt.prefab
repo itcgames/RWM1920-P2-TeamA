@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5924871591036279392}
   - component: {fileID: 2300685129467845306}
-  - component: {fileID: 303497908355645831}
+  - component: {fileID: 4493698751280232440}
   m_Layer: 0
   m_Name: Cog2
   m_TagString: Untagged
@@ -244,7 +244,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &303497908355645831
+--- !u!114 &4493698751280232440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -253,10 +253,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2135596720315038274}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1710245993, guid: bdaf0a37960542340afe999c1ecb7954, type: 3}
+  m_Script: {fileID: 11500000, guid: 04059de27d3042941b14078bf85e6a2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   degreesPerSec: 90
+  Right: 1
 --- !u!1 &5922254626085319234
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,7 +270,7 @@ GameObject:
   - component: {fileID: 2512949592356279532}
   - component: {fileID: 3283547964241688817}
   - component: {fileID: 6220555045022413136}
-  - component: {fileID: 1982296612359630857}
+  - component: {fileID: 1678034052906107291}
   m_Layer: 0
   m_Name: Belt
   m_TagString: Untagged
@@ -373,7 +374,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0065472247, y: 0.021395925}
   m_Size: {x: 5.09745, y: 2.458273}
   m_Direction: 1
---- !u!114 &1982296612359630857
+--- !u!114 &1678034052906107291
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -382,7 +383,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5922254626085319234}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1304826358, guid: bdaf0a37960542340afe999c1ecb7954, type: 3}
+  m_Script: {fileID: 11500000, guid: a8cb3779521f4154c84fc7bed4acac31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   belt: {fileID: 5922254626085319234}
@@ -398,7 +399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4442591286184686920}
   - component: {fileID: 8930772046880475850}
-  - component: {fileID: 1813665244151772883}
+  - component: {fileID: 5111188920922019854}
   m_Layer: 0
   m_Name: Cog1
   m_TagString: Untagged
@@ -468,7 +469,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1813665244151772883
+--- !u!114 &5111188920922019854
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -477,10 +478,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7874038453201646531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1710245993, guid: bdaf0a37960542340afe999c1ecb7954, type: 3}
+  m_Script: {fileID: 11500000, guid: 04059de27d3042941b14078bf85e6a2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   degreesPerSec: 90
+  Right: 1
 --- !u!1 &8662016607959017848
 GameObject:
   m_ObjectHideFlags: 0
