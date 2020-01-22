@@ -8,6 +8,7 @@ public class TextScript : MonoBehaviour
     public Text message;
     Vector3 pos;
     private bool isCoroutineExecuting = false;
+    int count = 0;
 
     IEnumerator ExecuteAfterTime(float time)
     {
@@ -19,7 +20,6 @@ public class TextScript : MonoBehaviour
         yield return new WaitForSeconds(time);
 
         // Code to execute after the delay
-
         isCoroutineExecuting = false;
     }
 
@@ -29,126 +29,103 @@ public class TextScript : MonoBehaviour
         message.text = "These buttons are quit, play and restart.";
         pos = message.transform.position;
         StartCoroutine(ExecuteAfterTime(10));
-        /* quit = gameObject.GetComponent<Text>();
-                quit.gameObject.SetActive(false);
-                play = gameObject.GetComponent<Text>();
-                play.gameObject.SetActive(false);
-                timer = gameObject.GetComponent<Text>();
-                timer.gameObject.SetActive(false);
-                restart = gameObject.GetComponent<Text>();
-                restart.gameObject.SetActive(false);
-                components = gameObject.GetComponent<Text>();
-                components.gameObject.SetActive(false);
-                player = gameObject.GetComponent<Text>();
-                player.gameObject.SetActive(false);*/
     }
 
     // Update is called once per frame
 
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.KeypadEnter))
+        if (Input.GetMouseButtonDown(0))
         {
             ExecuteAfterTime(10);
-            pos.x = 15.8f;
-            pos.y = 12.4f;
+            count += 1;
+        }
+
+        if(count == 0)
+        {
+            pos.x = 23.8f;
+            pos.y = 14.4f;
             message.transform.position = pos;
+
             Buttons();
         }
+        else if(count == 1)
+        {
+            Quit();
+        }
+        else if (count == 2)
+        {
+            Play();
+        }
+        else if (count == 3)
+        {
+            Restart();
+        }
+        else if (count == 4)
+        {
+            pos.x = 7.5f;
+            message.transform.position = pos;
+            Timer();
+        }
+        else if (count == 5)
+        {
+            pos.x = -17.4f;
+            pos.y = 5.5f;
+            message.transform.position = pos;
+            Components();
+        }
+        else
+        {
+            pos.x = -17.4f;
+            pos.y = -8.1f;
+            message.transform.position = pos;
+            Player();
+        }
+        
     }
 
     void Buttons()
     {
-        if (Input.GetKeyUp(KeyCode.KeypadEnter))
-        {
-            ExecuteAfterTime(10);
-            message.text = "Quit allows you to exit the game or tutorial and returns you back to the Main Menu.";
-            // quit.gameObject.SetActive(true);
-            Quit();
-        }
+        ExecuteAfterTime(10);
+        message.text = "These buttons are quit, play and restart.";
     }
 
     void Quit()
     {
-        if (Input.GetKeyUp(KeyCode.KeypadEnter))
-        {
-            ExecuteAfterTime(10);
-            message.text = "Play start the game along with the timer when you are ready. It is used to also play any extra components you have added to the game while playing.";
-            
-            
-            /*quit.gameObject.SetActive(false);
-            play.gameObject.SetActive(true);*/
-            Play();
-        }
+        ExecuteAfterTime(10);
+        message.text = "Quit allows you to exit the game or tutorial and returns you back to the Main Menu.";
     }
 
     void Play()
     {
-        if (Input.GetKeyUp(KeyCode.KeypadEnter))
-        {
-            ExecuteAfterTime(10);
-
-            message.text = "Restart refreshes the stage so that you can try again. it also rests the timer.";
-            /*play.gameObject.SetActive(false);
-                    restart.gameObject.SetActive(true);*/
-            Restart();
-        }
+        ExecuteAfterTime(10);
+        message.text = "Play start the game along with the timer when you are ready. It is used to also play any extra components you have added to the game while playing.";
     }
 
     void Restart()
     {
-        if (Input.GetKeyUp(KeyCode.KeypadEnter))
-        {
-            ExecuteAfterTime(10);
 
-            message.text = "This is the timer. You must complete each stage before the timer reaches zero otherwise it is game over.";
-            pos.x = -5.5f;
-            message.transform.position = pos;
-            /*restart.gameObject.SetActive(false);
-                    timer.gameObject.SetActive(true);*/
-            Timer();
-        }
+        ExecuteAfterTime(10);
+        message.text = "Restart refreshes the stage so that you can try again. it also rests the timer.";
     }
 
     void Timer()
     {
-        if (Input.GetKeyUp(KeyCode.KeypadEnter))
-        {
-            ExecuteAfterTime(10);
-
-            message.text = "These are the game components. They can be dragged and dropped onto the game screen to help the player reach the goal.";
-            pos.x = -25.4f;
-            pos.y = 5.5f;
-            message.transform.position = pos;
-            /*timer.gameObject.SetActive(false);
-                    components.gameObject.SetActive(true);*/
-            Components();
-        }
+        ExecuteAfterTime(10);
+        message.text = "This is the timer. You must complete each stage before the timer reaches zero otherwise it is game over.";
     }
 
     void Components()
     {
-        if (Input.GetKeyUp(KeyCode.KeypadEnter))
-        {
-            ExecuteAfterTime(10);
-
-            message.text = "In order to win, you need to get the player, Gizmo, to the computer. Try getting him to jump over the obstacles by pressing the 'Spacebar'.";
-            pos.x = -17.4f;
-            pos.y = -8.1f;
-            message.transform.position = pos;
-            /*components.gameObject.SetActive(false);
-                                player.gameObject.SetActive(true);*/
-            Player();
-        }
+        ExecuteAfterTime(10);
+        message.text = "These are the game components. They can be dragged and dropped onto the game screen to help the player reach the goal.";
+        message.text = "In order to win, you need to get the player, Gizmo, to the computer. Try getting him to jump over the obstacles by tapping the screen.";
     }
 
     void Player()
     {
-        if (Input.GetKeyUp(KeyCode.KeypadEnter))
-        {
-            ExecuteAfterTime(10);
-            
-            //player.gameObject.SetActive(false);
-        }
+        ExecuteAfterTime(10);
+        message.text = "In order to win, you need to get the player, Gizmo, to the computer. Try getting him to jump over the obstacles by tapping the screen.";
     }
+
 }

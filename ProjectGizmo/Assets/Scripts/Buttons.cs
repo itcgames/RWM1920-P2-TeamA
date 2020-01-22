@@ -12,14 +12,25 @@ public class Buttons : MonoBehaviour
     {
         if (col2D.gameObject.tag == "Player")
         {
-            Debug.Log("win");
+            Debug.Log("Win");
             Win();
         }
     }
 
-    public void StartGame()
+    public void StartTutorial()
     {
         SceneManager.LoadScene(index);
+    }
+
+    public void StartGame()
+    {
+        index = 2;
+        SceneManager.LoadScene(index);
+    }
+
+    public void BeginGame()
+    {
+        SceneManager.LoadScene("StartGame");
     }
 
     public void QuitGame()
@@ -38,7 +49,7 @@ public class Buttons : MonoBehaviour
             Debug.Log(counter);
         }
         index = PlayerPrefs.GetInt("Score");
-        if (index + 1 > 4)
+        if (index + 1 > 5)
         {
             PlayerPrefs.SetInt("Score", 1);
             SceneManager.LoadScene("EndGame");
@@ -87,7 +98,14 @@ public class Buttons : MonoBehaviour
         }
         Debug.Log(index);
         PlayerPrefs.SetInt("Score", SceneManager.GetActiveScene().buildIndex);
-        SceneManager.LoadScene("Win");
+        if (index < 4)
+        {
+            SceneManager.LoadScene("Win");
+        }
+        else
+        {
+            SceneManager.LoadScene("EndGame");
+        }
     }
 
     public void ReplayGame()

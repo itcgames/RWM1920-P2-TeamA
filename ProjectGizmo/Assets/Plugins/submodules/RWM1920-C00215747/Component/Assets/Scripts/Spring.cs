@@ -29,7 +29,7 @@ public class Spring : MonoBehaviour
 
         for (int i = 0; i < objects.Length; i++)
         {
-            if (objects[i].tag == "Player")
+            if (coll.gameObject.tag == "Player")
             {
                 if (!bouncing && !animator.GetBool("Pressing"))
                 {
