@@ -18,6 +18,7 @@ TagManager:
   - BubbleSprite
   - BorderBottom
   - GizmoSprite
+  - Spring
   layers:
   - Default
   - TransparentFX

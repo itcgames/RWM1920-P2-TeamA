@@ -35,11 +35,10 @@ public class TextScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.KeypadEnter))
+        if (Input.GetMouseButtonDown(0))
         {
             ExecuteAfterTime(10);
             count += 1;
-            
         }
 
         if(count == 0)

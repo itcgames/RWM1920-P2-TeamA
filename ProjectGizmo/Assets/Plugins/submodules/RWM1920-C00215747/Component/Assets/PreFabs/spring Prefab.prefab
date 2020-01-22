@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38770ff7a6ce5894e8d87573ee75caa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  springForce: 400
+  springForce: 1400
   audio: {fileID: 0}
 --- !u!61 &1407207752376597773
 BoxCollider2D:

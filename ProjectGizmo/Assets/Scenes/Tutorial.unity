@@ -265,7 +265,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1871009419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bda304650964e834d9c824e389adcc0a, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ee3f53cec2657c4a95392638741020c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   message: {fileID: 1871009422}
@@ -292,6 +292,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
+        type: 3}
+      propertyPath: m_Text
+      value: message
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.4198113
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
+        type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1660712123896952388, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
         type: 3}
@@ -367,46 +407,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 439.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
-        type: 3}
-      propertyPath: m_Text
-      value: message
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.4198113
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
-        type: 3}
-      propertyPath: m_FontData.m_RichText
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716415844339600845, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6716415845461979813, guid: bf98ab627c2ff6b4e90e9ed6e9e7e8e6,
         type: 3}

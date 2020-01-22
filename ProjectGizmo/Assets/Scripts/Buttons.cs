@@ -17,10 +17,20 @@ public class Buttons : MonoBehaviour
         }
     }
 
+    public void StartTutorial()
+    {
+        SceneManager.LoadScene(index);
+    }
+
     public void StartGame()
     {
         index = 2;
         SceneManager.LoadScene(index);
+    }
+
+    public void BeginGame()
+    {
+        SceneManager.LoadScene("StartGame");
     }
 
     public void QuitGame()
