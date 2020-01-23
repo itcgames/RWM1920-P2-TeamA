@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
-
     int index = 1;
 
     void OnTriggerEnter2D(Collider2D col2D)
@@ -86,6 +85,7 @@ public class Buttons : MonoBehaviour
             Debug.Log(counter);
         }
         Debug.Log(index);
+
         PlayerPrefs.SetInt("Score", SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene("Win");
     }
