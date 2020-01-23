@@ -48,6 +48,10 @@ public class TimerScript : MonoBehaviour
         {
             SceneManager.LoadScene(4);
         }
+        if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            SceneManager.LoadScene(5);
+        }
     }
 
     private void Update()
