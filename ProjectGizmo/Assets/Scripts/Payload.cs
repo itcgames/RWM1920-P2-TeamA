@@ -18,6 +18,9 @@ public class Payload : MonoBehaviour
     public bool autoFire = false;
     private bool disableInput = false;
 
+
+    public bool turretMode = true;
+
     private bool isPressed = false;
     private Vector2 autoFirePos;
 
@@ -31,6 +34,14 @@ public class Payload : MonoBehaviour
 
     void Update()
     {
+
+        if (!turretMode)
+        {
+         
+        }
+
+        turret();
+
         if (!placementMode)
         {
             if (!disableInput)
@@ -45,6 +56,13 @@ public class Payload : MonoBehaviour
         }
     }
 
+    void turret()
+    {
+        isPressed = true;
+        //print("beep");
+        OnMouseUp();
+        turretMode = false;
+    }
 
     void OnMouseDown()
     {
@@ -68,6 +86,7 @@ public class Payload : MonoBehaviour
                 rb.isKinematic = false;
                 autoFirePos = rb.position;
                 StartCoroutine(Release());
+                //GetComponent<Rigidbody2D>().gravityScale = 1.0f;
             }
         }
         else if (placementMode)
@@ -130,7 +149,7 @@ public class Payload : MonoBehaviour
 
 
         yield return new WaitForSeconds(ReloadTime);
-        //Physics2D.IgnoreCollision(rbPlayer.transform.GetComponent<Collider2D>(), GetComponent<Collider2D>(), false);
+        Physics2D.IgnoreCollision(rbPlayer.transform.GetComponent<Collider2D>(), GetComponent<Collider2D>(), false);
         Reload();
         if (autoFire)
         {
