@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Aaron/Desktop/RWM1920-P2-TeamA/ProjectGizmo/gizmo.apk
+C:/Users/Aaron/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Builds/gizmo.apk
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Tutorial.unity
@@ -170,6 +170,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+275758905bf7bf598d4c94f97da32d61 Assembly-CSharp.dll:.Score
 2cfca87e89791a09f85bb618e7735a76 AaronScripts.dll:.RotateFanBlade
 3b760e6526e13f7504f59e210145899a Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 507174d46dacbc5fe45e28485db5dd1e Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
@@ -185,4 +186,3 @@ b2969b0b8525b45a1c8624932236f2b0 Assembly-CSharp.dll:.AttachPlayer
 909c554eecdd4511633e316c95bf3d5f Assembly-CSharp-firstpass.dll:.Payload
 71bb6a6b6c8f052f948db64c7dd3ca4f AaronScripts.dll:.DragFan
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.PulseScript
-275758905bf7bf598d4c94f97da32d61 Assembly-CSharp.dll:.Score
