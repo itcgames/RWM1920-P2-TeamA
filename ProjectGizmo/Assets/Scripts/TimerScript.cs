@@ -73,6 +73,6 @@ public class TimerScript : MonoBehaviour
     
     private void timerEnded()
     {
-      SceneManager.LoadScene(5); 
+      SceneManager.LoadScene(9); 
     }
 }
