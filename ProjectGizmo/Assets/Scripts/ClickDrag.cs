@@ -18,15 +18,15 @@ public class ClickDrag : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public GameObject Item;
     private GameObject ItemDrag;
 
-    private bool playing = false;
+    public bool playing = false;
 
 
 
 
     private void Start()
-    {     
-        
-       
+    {
+
+
     }
     public void Update()
     {
@@ -35,10 +35,10 @@ public class ClickDrag : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
         if (dragging)
         {
-            ItemDrag.transform.position = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,Camera.main.ScreenToWorldPoint(Input.mousePosition).y,0);
+            ItemDrag.transform.position = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0);
         }
 
-        if(objects.Length > 0)
+        if (objects.Length > 0)
         {
             playing = true;
         }
@@ -62,4 +62,34 @@ public class ClickDrag : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             ItemDrag = Instantiate(Item, new Vector2((clickedPosition.x), (clickedPosition.y)), Quaternion.identity);
         }
     }
+
+
+    public bool forceUpdate(GameObject[] objects)
+    {
+
+        if (dragging)
+        {
+            ItemDrag.transform.position = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0);
+        }
+
+        if (objects.Length > 0)
+        {
+            playing = true;
+        }
+        else
+        {
+            playing = false;
+        }
+
+
+        return playing;
+    }
+
+    public bool getPlaying()
+    {
+        return playing;
+    }
+
+
+
 }
