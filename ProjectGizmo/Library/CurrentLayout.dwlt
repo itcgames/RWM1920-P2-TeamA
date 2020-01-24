@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 42
-    width: 1920
-    height: 998
+    x: 6.5
+    y: 48.5
+    width: 961
+    height: 991
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -41,13 +41,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 30
-    width: 1920
-    height: 948
-  m_MinSize: {x: 508, y: 498}
-  m_MaxSize: {x: 14004, y: 14048}
-  vertical: 0
-  controlID: 64
+    y: 0
+    width: 961
+    height: 991
+  m_MinSize: {x: 950, y: 548}
+  m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -65,16 +63,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1530
     y: 0
-    width: 390
-    height: 948
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 12}
-  m_Panes:
-  - {fileID: 15}
-  - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+    width: 961
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,16 +84,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 403
-    height: 573
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 0
+    y: 978
+    width: 1920
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -117,17 +105,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 573
-    width: 1530
-    height: 375
-  m_MinSize: {x: 232, y: 274}
-  m_MaxSize: {x: 10002, y: 10024}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+    y: 30
+    width: 961
+    height: 941
+  m_MinSize: {x: 683, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
+  vertical: 0
+  controlID: 119
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,10 +132,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 998
-  m_MinSize: {x: 950, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
+    width: 682
+    height: 941
+  m_MinSize: {x: 406, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
+  vertical: 1
+  controlID: 120
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,11 +155,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 30
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 
+    width: 682
+    height: 573
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
+  vertical: 0
+  controlID: 121
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,11 +177,16 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 978
-    width: 1920
-    height: 20
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
+    y: 0
+    width: 202
+    height: 573
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,14 +204,18 @@ MonoBehaviour:
   - {fileID: 5}
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 202
     y: 0
-    width: 1530
-    height: 948
-  m_MinSize: {x: 406, y: 498}
-  m_MaxSize: {x: 10002, y: 14048}
-  vertical: 1
-  controlID: 65
+    width: 480
+    height: 573
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 12}
+  - {fileID: 14}
+  m_Selected: 1
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,13 +234,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1530
-    height: 573
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
-  vertical: 0
-  controlID: 66
+    y: 573
+    width: 682
+    height: 368
+  m_MinSize: {x: 232, y: 274}
+  m_MaxSize: {x: 10002, y: 10024}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,18 +260,16 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 403
+    x: 682
     y: 0
-    width: 1127
-    height: 573
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+    width: 279
+    height: 941
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
-  - {fileID: 18}
-  - {fileID: 13}
-  m_Selected: 1
+  m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -293,10 +291,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1530
+    x: 404
     y: 72
-    width: 388
-    height: 928
+    width: 959
+    height: 567
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
@@ -306,7 +304,7 @@ MonoBehaviour:
       name: Gizmo
       fullName: Gizmo
       resultStatus: 2
-      duration: 0.122399
+      duration: 0.3186601
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -316,11 +314,11 @@ MonoBehaviour:
       isSuite: 1
       categories: []
       parentID: 
-    - id: '[C:/Users/edenb/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
+    - id: '[C:/Users/oisin/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
       name: Assembly-CSharp.dll
-      fullName: C:/Users/edenb/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullName: C:/Users/oisin/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Assembly-CSharp.dll
       resultStatus: 2
-      duration: 0.0958234
+      duration: 0.2892328
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -334,7 +332,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 2
-      duration: 0.0797055
+      duration: 0.2721474
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -343,12 +341,12 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentID: '[C:/Users/edenb/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
+      parentID: '[C:/Users/oisin/Desktop/RWM1920-P2-TeamA/ProjectGizmo/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
     - id: '[Assembly-CSharp][Tests.FanAreaTest][suite]'
       name: FanAreaTest
       fullName: Tests.FanAreaTest
       resultStatus: 2
-      duration: 0.0709107
+      duration: 0.0611378
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -362,20 +360,16 @@ MonoBehaviour:
       name: cubeMoveTest
       fullName: Tests.FanAreaTest.cubeMoveTest
       resultStatus: 2
-      duration: 0.0357566
-      messages: 'Unhandled log message: ''[Exception] MissingComponentException: There
-        is no ''AudioSource'' attached to the "New Game Object(Clone)" game object,
-        but a script is trying to access it.
-
-        You probably need to add a AudioSource to the game object "New Game Object(Clone)".
-        Or your script needs to check if the component is attached before using it.''.
-        Use UnityEngine.TestTools.LogAssert.Expect'
+      duration: 0.0338816
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
       output: "MissingComponentException: There is no 'AudioSource' attached to the
         \"New Game Object(Clone)\" game object, but a script is trying to access it.\nYou
         probably need to add a AudioSource to the game object \"New Game Object(Clone)\".
         Or your script needs to check if the component is attached before using it.\r\nNullReferenceException:
+        Object reference not set to an instance of an object\r\nNullReferenceException:
         Object reference not set to an instance of an object\r\n"
-      stacktrace: "FanArea.Start () (at Assets/Plugins/submodules/RWM1920-C00217820/Fan/Assets/Scripts/FanArea.cs:23)\r\n\r\n"
+      stacktrace: "FanArea.FixedUpdate () (at Assets/Plugins/submodules/RWM1920-C00217820/Fan/Assets/Scripts/FanArea.cs:37)\r\n\r\n"
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -387,7 +381,7 @@ MonoBehaviour:
       name: OisinTest
       fullName: Tests.OisinTest
       resultStatus: 2
-      duration: 0.228736
+      duration: 0.2505651
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -401,7 +395,7 @@ MonoBehaviour:
       name: OisinTestSimplePasses
       fullName: Tests.OisinTest.OisinTestSimplePasses
       resultStatus: 1
-      duration: 0.0371108
+      duration: 0.0306581
       messages: 
       output: 
       stacktrace: 
@@ -416,11 +410,11 @@ MonoBehaviour:
       name: OisinTestWithEnumeratorPasses
       fullName: Tests.OisinTest.OisinTestWithEnumeratorPasses
       resultStatus: 2
-      duration: 0.1968155
+      duration: 0.1888371
       messages: "  Expected: less than 0.0f\r\n  But was:  0.0f\r\n"
       output: 
       stacktrace: "at Tests.OisinTest+<OisinTestWithEnumeratorPasses>d__4.MoveNext
-        () [0x00060] in C:\\Users\\edenb\\Desktop\\RWM1920-P2-TeamA\\ProjectGizmo\\Assets\\Tests\\OisinTest.cs:52\r\nat
+        () [0x00060] in C:\\Users\\oisin\\Desktop\\RWM1920-P2-TeamA\\ProjectGizmo\\Assets\\Tests\\OisinTest.cs:41\r\nat
         UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext () [0x0004b]
         in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31\r\n"
       notRunnable: 0
@@ -430,120 +424,17 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentID: '[Assembly-CSharp][Tests.OisinTest][suite]'
-    - id: '[Assembly-CSharp][Tests.SpringTest][suite]'
-      name: SpringTest
-      fullName: Tests.SpringTest
-      resultStatus: 2
-      duration: 0.0600065
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentID: '[Tests][suite]'
-    - id: '[Assembly-CSharp][Tests.SpringTest.SpringTestCollide]'
-      name: SpringTestCollide
-      fullName: Tests.SpringTest.SpringTestCollide
-      resultStatus: 1
-      duration: 0.0326103
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentID: '[Assembly-CSharp][Tests.SpringTest][suite]'
-    - id: '[Assembly-CSharp][Tests.SpringTest.SpringTestNotCollide]'
-      name: SpringTestNotCollide
-      fullName: Tests.SpringTest.SpringTestNotCollide
-      resultStatus: 2
-      duration: 0.0332868
-      messages: "  Expected: not equal to (0.0, 0.0, 0.0)\r\n  But was:  (0.0, 0.0,
-        0.0)\r\n"
-      output: 
-      stacktrace: "at Tests.SpringTest.SpringTestNotCollide () [0x00001] in C:\\Users\\edenb\\Desktop\\RWM1920-P2-TeamA\\ProjectGizmo\\Assets\\Tests\\SpringTest.cs:33\r\n"
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentID: '[Assembly-CSharp][Tests.SpringTest][suite]'
-    - id: '[Assembly-CSharp][Tests.SpringTest.SpringTestWithEnumeratorPasses]'
-      name: SpringTestWithEnumeratorPasses
-      fullName: Tests.SpringTest.SpringTestWithEnumeratorPasses
-      resultStatus: 1
-      duration: 1.0934054
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentID: '[Assembly-CSharp][Tests.SpringTest][suite]'
-    - id: '[Assembly-CSharp][Tests.TutorialTest][suite]'
-      name: TutorialTest
-      fullName: Tests.TutorialTest
-      resultStatus: 1
-      duration: 1.1212871
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentID: '[Tests][suite]'
-    - id: '[Assembly-CSharp][Tests.TutorialTest.TutorialTestSimplePasses]'
-      name: TutorialTestSimplePasses
-      fullName: Tests.TutorialTest.TutorialTestSimplePasses
-      resultStatus: 1
-      duration: 0.032898
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentID: '[Assembly-CSharp][Tests.TutorialTest][suite]'
-    - id: '[Assembly-CSharp][Tests.TutorialTest.TutorialTestWithEnumeratorPasses]'
-      name: TutorialTestWithEnumeratorPasses
-      fullName: Tests.TutorialTest.TutorialTestWithEnumeratorPasses
-      resultStatus: 1
-      duration: 1.0931723
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentID: '[Assembly-CSharp][Tests.TutorialTest][suite]'
-    m_ResultText: "SpringTestNotCollide (0.033s)\n---\nExpected: not equal to (0.0,
-      0.0, 0.0)\r\n  But was:  (0.0, 0.0, 0.0)\n---\nat Tests.SpringTest.SpringTestNotCollide
-      () [0x00001] in C:\\Users\\edenb\\Desktop\\RWM1920-P2-TeamA\\ProjectGizmo\\Assets\\Tests\\SpringTest.cs:33"
-    m_ResultStacktrace: "at Tests.SpringTest.SpringTestNotCollide () [0x00001] in
-      C:\\Users\\edenb\\Desktop\\RWM1920-P2-TeamA\\ProjectGizmo\\Assets\\Tests\\SpringTest.cs:33\r\n"
+    m_ResultText: 'OisinTest (0.251s)
+
+      ---
+
+      One or more child tests had errors'
+    m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 680eb453
-      m_LastClickedID: 1404309096
-      m_ExpandedIDs: 3beef202880f9611980c2731ffca6e3232a9b5323fb8b06d79ef877bffffff7f
+      m_SelectedIDs: ffca6e32
+      m_LastClickedID: 846121727
+      m_ExpandedIDs: fa358e8351ed5bbf3beef202880f9611ffca6e32461e0751ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -592,7 +483,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ffffff7f
+      m_ExpandedIDs: 880f9611ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -627,24 +518,212 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 2048, y: 2048}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+    m_Text: Game
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
+    x: 203
+    y: 78.5
+    width: 478
+    height: 563
   m_PersistentViewDataDictionary: {fileID: 0}
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 07000000000000000000000006000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -1400
+    m_HBaseRangeMax: 1400
+    m_VBaseRangeMin: -600
+    m_VBaseRangeMax: 600
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 959
+      height: 565
+    m_Scale: {x: 0.3425, y: 0.3425}
+    m_Translation: {x: 479.5, y: 282.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -1400
+      y: -824.8175
+      width: 2800
+      height: 1649.635
+    m_MinimalGUI: 1
+  m_defaultScale: 0.3425
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 959, y: 582}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_XRRenderMode: 0
 --- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 6.5
+    y: 78.5
+    width: 200
+    height: 553
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: ba400000
+      m_LastClickedID: 16570
+      m_ExpandedIDs: d6f8ffff2cf9ffff62400000b6400000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 8}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: c698b91878a0fa24881944de8c62e9d6
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 208.5
+    y: 78.5
+    width: 476
+    height: 553
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_WindowGUID: bfbd780d484a44d479da0de49adb7c04
+  m_SceneLighting: 0
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 3.0581422, y: 12.011249, z: -0.43478265}
+    speed: 2
+    m_Value: {x: 3.0581422, y: 12.011249, z: -0.43478265}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 0
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: -1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: -1}
+  m_Size:
+    m_Target: 50.53926
+    speed: 2
+    m_Value: 50.53926
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_ShowGlobalGrid: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -665,10 +744,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 645
-    width: 1528
-    height: 355
+    x: 6.5
+    y: 651.5
+    width: 680
+    height: 348
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -688,14 +767,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\edenb\Desktop\RWM1920-P2-TeamA\ProjectGizmo
+  m_LastProjectPath: C:\Users\Jack\Desktop\RWM1920-P2-TeamA\ProjectGizmo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 418}
-    m_SelectedIDs: ec280000
-    m_LastClickedID: 10476
-    m_ExpandedIDs: 00000000be2600000e270000fa2700002c28000072280000742800008c280000ba280000c2280000be290000dc2900006e2a0000da2a0000ec2a0000242b00003e2c000000ca9a3b
+    scrollPos: {x: 0, y: 185}
+    m_SelectedIDs: 90320000
+    m_LastClickedID: 12944
+    m_ExpandedIDs: 0000000068300000ba300000da3100001e320000663200008a320000603300007c33000066340000723400007c340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -723,7 +802,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000be2600000e270000fa2700002c28000072280000742800008c280000ba280000c2280000be290000dc2900006e2a0000da2a0000ec2a0000242b00003e2c0000
+    m_ExpandedIDs: 0000000068300000ba300000da3100001e320000663200008a320000603300007c33000066340000723400007c340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -751,7 +830,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c6230000aa2a00009427000012350000f0270000000000004e240000f4260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -767,7 +846,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 3}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -777,8 +856,8 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
-  m_DirectoriesAreaWidth: 260
---- !u!114 &15
+  m_DirectoriesAreaWidth: 344
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -834,121 +913,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 72
-    width: 401
-    height: 553
+    x: 6.5
+    y: 651.5
+    width: 680
+    height: 348
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 5ee3ffff7ce3ffffe0e3fffffae3ffff18e4ffff7ce4ffff96e4ffffb4e4ffff10e5ffff2ae5ffff48e5ffffa4e5ffffbce5ffffdae5ffff3ee6ffff58e6ffff76e6ffffdae6fffff4e6ffff12e7ffff72e7ffff8ce7ffffaae7ffff0ae8ffff28e8ffff46e8ffffe8e8ffff1ce9ffff3ae9ffff9ae9ffffb4e9ffffd2e9ffff32eaffff56ebffffd0ebffffeeebffff52ecffff6aecffff88ecffffececffff06edffff24edffff88edffffa6edffffc4edffff6aeeffffd0eefffff6eeffffb8efffffdcefffffe4efffff02f0ffff64f0ffff68f0ffff86f0ffffe8f0ffff38f1ffff76f1ffff94f1fffff0f1ffff0af2ffff28f2ffff84f2ffffa6f2ffffc4f2ffff28f3ffff42f3ffff60f3ffff06f4ffff58f4ffff76f4ffffdaf4fffff4f4ffff12f5ffff76f5ffff90f5ffffaef5ffff54f6ffff80f6ffff9ef6ffff02f7ffff1cf7ffff3af7ffff9ef7ffffb8f7ffffd6f7ffff3af8ffff54f8ffff72f8ffffd6f8fffff0f8ffff0ef9ffffb2f9ffff14faffff32faffffdcfaffff10fbffff8efbffff82b6000092ba00001eeb00002eef0000
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 91a295f5e41ec0a4ea33053b57f63179
 --- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 403
-    y: 72
-    width: 1123
-    height: 553
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_WindowGUID: 073c6039dbf9c4c4e877d2b0295d16d0
-  m_SceneLighting: 1
-  m_2DMode: 1
-  m_isRotationLocked: 0
-  m_AudioPlay: 0
-  m_Position:
-    m_Target: {x: -0.12191141, y: -2.7363744, z: -49.105022}
-    speed: 2
-    m_Value: {x: -0.12191141, y: -2.7363744, z: -49.105022}
-  m_RenderMode: 0
-  m_CameraMode:
-    drawMode: 0
-    name: Shaded
-    section: Shading Mode
-  m_ValidateTrueMetals: 0
-  m_SceneViewState:
-    showFog: 1
-    showMaterialUpdate: 0
-    showSkybox: 1
-    showFlares: 1
-    showImageEffects: 1
-    showParticleSystems: 1
-  grid:
-    xGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-  m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: -1}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
-  m_Size:
-    m_Target: 68.22243
-    speed: 2
-    m_Value: 68.22243
-  m_Ortho:
-    m_Target: 1
-    speed: 2
-    m_Value: 1
-  m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
---- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -969,88 +939,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 403
-    y: 72
-    width: 1123
-    height: 553
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_MaximizeOnPlay: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 08000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_TargetDisplay: 0
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -480
-    m_HBaseRangeMax: 480
-    m_VBaseRangeMin: -270
-    m_VBaseRangeMax: 270
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 17
-      width: 1123
-      height: 536
-    m_Scale: {x: 0.9925926, y: 0.9925926}
-    m_Translation: {x: 561.5, y: 268}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -565.6903
-      y: -270
-      width: 1131.3806
-      height: 540
-    m_MinimalGUI: 1
-  m_defaultScale: 0.9925926
-  m_TargetTexture: {fileID: 0}
-  m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 2246, y: 1106}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 645
-    width: 1528
-    height: 355
+    x: 688.5
+    y: 78.5
+    width: 277
+    height: 921
   m_PersistentViewDataDictionary: {fileID: 0}

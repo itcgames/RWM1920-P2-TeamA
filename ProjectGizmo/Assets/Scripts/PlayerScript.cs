@@ -60,6 +60,22 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+    public void setBottomHit(bool t_bool)
+    {
+        bottomHit = t_bool;
+    }
+
+    public void setJump(bool t_bool)
+    {
+        jump = t_bool;
+    }
+
+
+    public void directionChange()
+    {
+       movementDirection = !movementDirection;
+    }
+
 
     void OnCollisionEnter2D(Collision2D col)
     {
