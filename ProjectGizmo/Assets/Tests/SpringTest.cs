@@ -30,6 +30,7 @@ namespace Tests
         [Test]
         public void SpringTestNotCollide()
         {
+            spring.transform.position = new Vector3(200, 200, 0);
             Assert.AreNotEqual(player.transform.position, spring.transform.position);
             // Use the Assert class to test conditions
         }

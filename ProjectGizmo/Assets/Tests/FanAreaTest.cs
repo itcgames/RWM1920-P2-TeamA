@@ -16,8 +16,8 @@ namespace Tests
         [SetUp]
         public void Setup()
         {
-            Object = GameObject.Instantiate(new GameObject());
-            fanarea = Object.AddComponent<FanArea>();
+            //Object = GameObject.Instantiate(new GameObject());
+            //fanarea = Object.AddComponent<FanArea>();
          
         }
         [UnityTest]
