@@ -32,5 +32,19 @@ namespace Tests
             }
 
         }
+        [UnityTest]
+        public IEnumerator PlayerJumpClick()
+        {   // Use the Assert class to test conditions.
+            // Use yield to skip a frame.
+            GameObject PlayerGameObject = new GameObject(name: "PlayerJumpClick");
+            PlayerScript player = PlayerGameObject.AddComponent<PlayerScript>();
+
+
+            
+
+
+            yield return null;
+
+        }
     }
 }
