@@ -8,7 +8,7 @@ public class TextScript : MonoBehaviour
     public Text message;
     Vector3 pos;
     private bool isCoroutineExecuting = false;
-    static int count = 0;
+    int count = 0;
 
     IEnumerator ExecuteAfterTime(float time)
     {
@@ -32,11 +32,6 @@ public class TextScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    public static int tutorial(int x)
-    {
-        x = count;
-        return x;
-    }
 
     void Update()
     {
@@ -124,6 +119,7 @@ public class TextScript : MonoBehaviour
     {
         ExecuteAfterTime(10);
         message.text = "These are the game components. They can be dragged and dropped onto the game screen to help the player reach the goal.";
+        message.text = "In order to win, you need to get the player, Gizmo, to the computer. Try getting him to jump over the obstacles by tapping the screen.";
     }
 
     void Player()

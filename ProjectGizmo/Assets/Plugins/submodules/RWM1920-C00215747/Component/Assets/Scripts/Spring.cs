@@ -25,7 +25,7 @@ public class Spring : MonoBehaviour
         return x;
     }
 
-    public void OnCollisionEnter2D(Collision2D coll)
+    void OnCollisionEnter2D(Collision2D coll)
     {
         GameObject[] objects = GameObject.FindGameObjectsWithTag("Player");
 

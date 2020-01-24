@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":false,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":0.8573061227798462,"y":2.835771083831787,"z":-0.5258470773696899},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":-1.0},"size":59.69144821166992,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":false,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-11.157814025878907,"y":7.100333213806152,"z":2.168729543685913},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":-1.0},"size":39.88039779663086,"orthographic":true}
 >>>>>>> parent of 4b25af0... test updates
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":false,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-6.497771263122559,"y":-6.267219543457031,"z":18.814693450927736},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":-1.0},"size":52.52267074584961,"orthographic":true}
+>>>>>>> parent of 2628d0f... test fixing
