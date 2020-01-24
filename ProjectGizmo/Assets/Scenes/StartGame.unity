@@ -219,5 +219,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 2.5383892
       objectReference: {fileID: 0}
+    - target: {fileID: 8542579989846063204, guid: c9f73163e70db8d479308f9eff586626,
+        type: 3}
+      propertyPath: m_Name
+      value: Tutorial Menu
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9f73163e70db8d479308f9eff586626, type: 3}

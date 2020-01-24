@@ -19,6 +19,7 @@ TagManager:
   - BorderBottom
   - GizmoSprite
   - Spring
+  - Tutorial
   layers:
   - Default
   - TransparentFX
