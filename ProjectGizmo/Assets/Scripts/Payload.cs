@@ -26,10 +26,13 @@ public class Payload : MonoBehaviour
 
     public bool placementMode = false;
 
+    AudioSource source;
+
 
     void Start()
     {
         Physics2D.IgnoreCollision(collide.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        source = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -134,6 +137,8 @@ public class Payload : MonoBehaviour
     {
         yield return new WaitForSeconds(releaseTime);
         GetComponent<SpringJoint2D>().enabled = false;
+
+        source.Play();
 
         //this.enabled = false;
         if (autoFire)
