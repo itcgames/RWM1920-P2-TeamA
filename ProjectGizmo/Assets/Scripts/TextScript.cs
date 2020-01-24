@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class TextScript : MonoBehaviour
 {
+    public AudioSource soundSource;
+
     public Text message;
     Vector3 pos;
     private bool isCoroutineExecuting = false;
@@ -25,6 +27,7 @@ public class TextScript : MonoBehaviour
 
     void Start()
     {
+        soundSource = GetComponent<AudioSource>();
         message = gameObject.GetComponent<Text>();
         message.text = "These buttons are quit, play and restart.";
         pos = message.transform.position;
@@ -39,6 +42,10 @@ public class TextScript : MonoBehaviour
         {
             ExecuteAfterTime(10);
             count += 1;
+            if (count <= 6)
+            {
+                soundSource.Play();
+            }
         }
 
         if(count == 0)

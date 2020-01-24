@@ -19,10 +19,13 @@ public class PlayerScript : MonoBehaviour
 
     private SpriteRenderer mySpriteRenderer;
 
+    public AudioSource [] source;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        source = GetComponents<AudioSource>();
         mySpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -30,6 +33,9 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
+        //source[1].Play();
+
         if (!disable)
         {
             if (Input.GetMouseButtonDown(0))
@@ -38,6 +44,7 @@ public class PlayerScript : MonoBehaviour
                 {
                     if (jump == false)
                     {
+                        source[1].Play();
                         jump = true;
                         jumpspeed = jumpHeight;
                     }
@@ -89,7 +96,6 @@ public class PlayerScript : MonoBehaviour
             {
                 if (col.gameObject.tag == "BorderBottom")
                 {
-                    Debug.Log("hi");
                     bottomHit = true;
                 }
 
@@ -97,10 +103,12 @@ public class PlayerScript : MonoBehaviour
                 {
                     if (col.gameObject.tag == "BorderSide")
                     {
+                        source[0].Play();
                         var direction = transform.InverseTransformPoint(col.transform.position);
 
                         if (direction.x > 0f || direction.x < 0f)
                         {
+                       
                             movementDirection = !movementDirection;
                             mySpriteRenderer.flipX = movementDirection;
                         }
