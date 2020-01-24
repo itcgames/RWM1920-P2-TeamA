@@ -8,51 +8,66 @@ namespace Tests
 {
     public class OisinTest
     {
-        GameObject player = Resources.Load("Gizmo") as GameObject;
-        GameObject block = Resources.Load("Obstacle") as GameObject;
+        GameObject player;
+
 
         [SetUp]
         public void SetUp()
         {
-            Assert.IsNotNull(player);
-            player.transform.position = new Vector3(0, 0, 0);
-
-            Assert.IsNotNull(block);
-            block.transform.position = new Vector3(0, 10, 0);
-
+            player = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Gizmo"));
         }
 
 
-        // A Test behaves as an ordinary method
-        [Test]
-        public void OisinTestSimplePasses()
-        {
-            // Use the Assert class to test conditions
-        }
-
-        // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
-        // `yield return null;` to skip a frame.
         [UnityTest]
-        public IEnumerator OisinTestWithEnumeratorPasses()
+        public IEnumerator ExistanceTest()
         {
-            // Use the Assert class to test conditions.
-            // Use yield to skip a frame.
+            yield return null;
+            Assert.IsNotNull(player);
+        }
 
-            //playerobj.transform.position = new Vector3(0, 0, 0);
 
+        [UnityTest]
+        public IEnumerator PlayerMovementTest()
+        {
             float initialPos = player.transform.position.x;
 
+            yield return new WaitForSeconds(1.0f);
 
-            // Use the Assert class to test conditions.
-            // Use yield to skip a frame.
-            yield return new WaitForSeconds(0.1f);
+            Assert.Greater(player.transform.position.x, initialPos);
+
+            yield return null;
+        }
 
 
-            //yield return null;
+        [UnityTest]
+        public IEnumerator PlayerDirectionChangeTest()
+        {
+            float initialPos = player.transform.position.x;
+
+            player.GetComponent<PlayerScript>().directionChange();
+
+            yield return new WaitForSeconds(1.0f);
+
             Assert.Less(player.transform.position.x, initialPos);
 
-            //Assert.
+            yield return null;
+        }
 
+
+        [UnityTest]
+        public IEnumerator PlayerJumpTest()
+        {
+            float initialPos = player.transform.position.y;
+
+            player.GetComponent<PlayerScript>().setBottomHit(true);
+
+            player.GetComponent<PlayerScript>().setJump(true);
+
+            yield return new WaitForSeconds(1.0f);
+
+            Assert.Less(player.transform.position.y, initialPos);
+
+            yield return null;
         }
     }
 }
