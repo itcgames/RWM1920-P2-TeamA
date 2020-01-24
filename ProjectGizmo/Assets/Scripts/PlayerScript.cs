@@ -67,6 +67,11 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+    public AudioSource getPlayAudio()
+    {
+        return source[0];
+    }
+
     public void setBottomHit(bool t_bool)
     {
         bottomHit = t_bool;
