@@ -6,10 +6,9 @@ using UnityEngine.TestTools;
 
 namespace Tests
 {
-    public class OisinTest
+    public class PlayerTests
     {
         GameObject player;
-
 
         [SetUp]
         public void SetUp()
