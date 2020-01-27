@@ -67,7 +67,7 @@ public class Buttons : MonoBehaviour
         while (counter < waitTime)
         {
             counter += Time.deltaTime;
-            Debug.Log(counter);
+
         }
 
         SceneManager.LoadScene(0);

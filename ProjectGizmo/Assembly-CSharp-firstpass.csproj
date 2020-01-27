@@ -644,6 +644,10 @@
       <Project>{A7DB32AF-B76F-C757-ED8B-D8020A0938EB}</Project>
       <Name>Test</Name>
     </ProjectReference>
+    <ProjectReference Include="Scripts.csproj">
+      <Project>{9196B71D-95FF-CBC4-1F74-6B55117B0107}</Project>
+      <Name>Scripts</Name>
+    </ProjectReference>
     <ProjectReference Include="AaronScripts.csproj">
       <Project>{440EA113-3BA3-D611-7B26-FD74E4502CE6}</Project>
       <Name>AaronScripts</Name>

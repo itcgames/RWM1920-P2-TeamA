@@ -63,22 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AttachPlayer.cs" />
-    <Compile Include="Assets\Scripts\BubbleMovement.cs" />
-    <Compile Include="Assets\Scripts\Buttons.cs" />
-    <Compile Include="Assets\Scripts\ClickDrag.cs" />
-    <Compile Include="Assets\Scripts\CreateBubble.cs" />
-    <Compile Include="Assets\Scripts\Drag.cs" />
-    <Compile Include="Assets\Scripts\Gameplay.cs" />
-    <Compile Include="Assets\Scripts\Payload.cs" />
-    <Compile Include="Assets\Scripts\PlayerScript.cs" />
-    <Compile Include="Assets\Scripts\PulseScript.cs" />
-    <Compile Include="Assets\Scripts\Score.cs" />
-    <Compile Include="Assets\Scripts\TextScript.cs" />
-    <Compile Include="Assets\Scripts\TimerScript.cs" />
+    <Compile Include="Assets\Tests\AudioAndParticleTest.cs" />
     <Compile Include="Assets\Tests\DragAndDropTest.cs" />
     <Compile Include="Assets\Tests\FanAreaTest.cs" />
     <Compile Include="Assets\Tests\GoalColPlayerTest.cs" />
+    <Compile Include="Assets\Tests\JackTest.cs" />
     <Compile Include="Assets\Tests\PlayerTests.cs" />
     <Compile Include="Assets\Tests\SpringTest.cs" />
     <Compile Include="Assets\Tests\TutorialTest.cs" />
@@ -658,6 +647,10 @@
     <ProjectReference Include="Test.csproj">
       <Project>{A7DB32AF-B76F-C757-ED8B-D8020A0938EB}</Project>
       <Name>Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="Scripts.csproj">
+      <Project>{9196B71D-95FF-CBC4-1F74-6B55117B0107}</Project>
+      <Name>Scripts</Name>
     </ProjectReference>
     <ProjectReference Include="AaronScripts.csproj">
       <Project>{440EA113-3BA3-D611-7B26-FD74E4502CE6}</Project>

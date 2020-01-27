@@ -19,8 +19,11 @@ public class Score : MonoBehaviour
 
     private void Start()
     {
+      
         Scene currentScene = SceneManager.GetActiveScene();
         currentScore = 0;
+
+      
     }
 
     public void scoreStart()
@@ -70,7 +73,16 @@ public class Score : MonoBehaviour
     }
     private void Update()
     {
-        if(isRunning)
+
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            currentScore = 0;
+            finalScore = 0;
+            isRunning = false;
+        }
+ 
+
+        if (isRunning)
         {
             currentScore += 1 * Time.deltaTime;
            
@@ -91,6 +103,8 @@ public class Score : MonoBehaviour
         
         LevelEnded();
 
+
+   
 
     }
    
